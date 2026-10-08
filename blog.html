@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — DESIGNOO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon"></span> DESIGNOO</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="dova-agent.html" class="nav-link">DOVA Agent</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="get-started.html" class="btn btn-secondary btn-sm">Request a Demo</a>
+        <a href="get-started.html" class="btn btn-primary btn-sm">Build With Us</a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Blog</span></div>
+      <h1>Insights</h1>
+      <p class="lead">Notes on product strategy, AI systems, design and the craft of building durable digital platforms.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+        <a href="single-post.html" class="blog-card"><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop" alt="Agent design"><div class="blog-card-body"><div class="meta">AI Systems · Oct 2, 2026</div><h3>Designing agents that stay under control</h3><p>Practical patterns for human-in-the-loop, tool permissions and auditability.</p></div></a>
+        <a href="single-post.html" class="blog-card"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Product metrics"><div class="blog-card-body"><div class="meta">Product · Sep 18, 2026</div><h3>Metrics that actually change behavior</h3><p>Why most dashboards fail and how to design measurement systems teams use.</p></div></a>
+        <a href="single-post.html" class="blog-card"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop" alt="Design systems"><div class="blog-card-body"><div class="meta">Design · Sep 5, 2026</div><h3>When a design system becomes a product</h3><p>Lessons from evolving component libraries into internal platforms.</p></div></a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a><p>Engineering tomorrow's digital ecosystems today.</p></div>
+        <div><h4>Product</h4><div class="footer-links"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="dova-agent.html">DOVA Agent</a><a href="get-started.html">Get Started</a></div></div>
+        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div></div>
+        <div><h4>Connect</h4><div class="footer-links"><a href="#">LinkedIn</a><a href="#">X / Twitter</a><a href="#">GitHub</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 DESIGNOO. All rights reserved.</span><span>Privacy · Terms</span></div>
+    </div>
+  </footer>
+  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}</script>
+</body>
+</html>

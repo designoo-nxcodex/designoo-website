@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Started — DESIGNOO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon"></span> DESIGNOO</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="dova-agent.html" class="nav-link">DOVA Agent</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="get-started.html" class="btn btn-secondary btn-sm">Request a Demo</a>
+        <a href="get-started.html" class="btn btn-primary btn-sm">Build With Us</a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Get Started</span></div>
+      <h1>Let's build something ambitious</h1>
+      <p class="lead">Share a few details about your goals. We'll follow up with a clear next step.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container" style="max-width: 720px;">
+      <div class="card">
+        <h3 class="mb-24">Project inquiry</h3>
+        <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you. Our team will review and respond within one business day.');">
+          <div class="grid grid-2" style="gap: 20px;">
+            <div class="form-group"><label class="form-label" for="name">Full name *</label><input class="form-input" type="text" id="name" name="name" required placeholder="Your name"></div>
+            <div class="form-group"><label class="form-label" for="email">Work email *</label><input class="form-input" type="email" id="email" name="email" required placeholder="you@company.com"></div>
+          </div>
+          <div class="form-group"><label class="form-label" for="company">Company *</label><input class="form-input" type="text" id="company" name="company" required placeholder="Company name"></div>
+          <div class="form-group"><label class="form-label" for="interest">What are you interested in? *</label>
+            <select class="form-select" id="interest" name="interest" required>
+              <option value="">Select...</option>
+              <option value="full-product">Full product engagement</option>
+              <option value="ai-systems">AI / Cognitive systems</option>
+              <option value="dova">DOVA Agent pilot</option>
+              <option value="strategy">Strategy & discovery only</option>
+            </select>
+          </div>
+          <div class="form-group"><label class="form-label" for="details">Project details *</label><textarea class="form-textarea" id="details" name="details" required placeholder="What problem are you solving?"></textarea></div>
+          <button type="submit" class="btn btn-primary btn-lg w-full">Submit Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a><p>Engineering tomorrow's digital ecosystems today.</p></div>
+        <div><h4>Product</h4><div class="footer-links"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="dova-agent.html">DOVA Agent</a><a href="get-started.html">Get Started</a></div></div>
+        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div></div>
+        <div><h4>Connect</h4><div class="footer-links"><a href="#">LinkedIn</a><a href="#">X / Twitter</a><a href="#">GitHub</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 DESIGNOO. All rights reserved.</span><span>Privacy · Terms</span></div>
+    </div>
+  </footer>
+  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}</script>
+</body>
+</html>

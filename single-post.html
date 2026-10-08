@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Designing agents that stay under control — DESIGNOO Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon"></span> DESIGNOO</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="dova-agent.html" class="nav-link">DOVA Agent</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="get-started.html" class="btn btn-secondary btn-sm">Request a Demo</a>
+        <a href="get-started.html" class="btn btn-primary btn-sm">Build With Us</a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container" style="max-width: 800px;">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="blog.html">Blog</a><span>/</span><span>Article</span></div>
+      <div class="badge badge-blue mb-16">AI Systems</div>
+      <h1>Designing agents that stay under control</h1>
+      <div class="post-meta mt-24">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Daniel Reyes">
+        <div><strong style="color: var(--text-dark);">Daniel Reyes</strong><div>Oct 2, 2026 · 8 min read</div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <article class="post-content">
+        <p class="lead" style="color: var(--text-dark); margin-bottom: 32px;">As agents move from demos into production systems, the hardest problems are no longer model quality. They are control, observability and trust.</p>
+        <p>An agent that can call tools, write to databases and send messages is effectively a privileged user. Treating it as a pure reasoning component is a category error.</p>
+        <h2>Start with permissions, not prompts</h2>
+        <p>The first design decision should be the set of tools and scopes the agent is allowed to use. We recommend a least-privilege model with explicit allow-lists per agent role.</p>
+        <h2>Human-in-the-loop as a first-class path</h2>
+        <p>Every production agent system we ship includes explicit escalation and approval gates as part of the normal control flow.</p>
+        <h2>Trace everything</h2>
+        <p>Full traces of reasoning, tool calls, intermediate state and final outputs are non-negotiable.</p>
+        <h2>Closing</h2>
+        <p>Agents are powerful precisely because they can act. The discipline of keeping them under control is what turns that power into something organizations can actually depend on.</p>
+        <div class="mt-48" style="padding-top: 32px; border-top: 1px solid var(--border);">
+          <a href="blog.html" class="btn btn-secondary">← Back to Blog</a>
+          <a href="dova-agent.html" class="btn btn-primary" style="margin-left: 12px;">Explore DOVA Agent</a>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a><p>Engineering tomorrow's digital ecosystems today.</p></div>
+        <div><h4>Product</h4><div class="footer-links"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="dova-agent.html">DOVA Agent</a><a href="get-started.html">Get Started</a></div></div>
+        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div></div>
+        <div><h4>Connect</h4><div class="footer-links"><a href="#">LinkedIn</a><a href="#">X / Twitter</a><a href="#">GitHub</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 DESIGNOO. All rights reserved.</span><span>Privacy · Terms</span></div>
+    </div>
+  </footer>
+  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}</script>
+</body>
+</html>
