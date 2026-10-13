@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dove Shield — DESIGNOO</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-extra.css">
 </head>
 <body>
   <header class="header">
@@ -29,7 +30,7 @@
     <div class="container">
       <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="product.html">Product</a><span>/</span><span>Dove Shield</span></div>
       <h1>Dove Shield</h1>
-      <p class="lead">Brand and creative asset protection — monitoring, governance and controls for your digital presence and IP.</p>
+      <p class="lead">Brand and creative asset protection — monitoring, governance and controls.</p>
       <div class="mt-32">
         <a href="get-started.html" class="btn btn-primary btn-lg">Request Demo</a>
         <a href="product.html" class="btn btn-secondary btn-lg">All Products</a>
@@ -38,10 +39,7 @@
   </section>
   <section class="section">
     <div class="container">
-      <div class="section-header">
-        <h2>Protect what you build</h2>
-        <p>As brands grow across channels, assets and reputation need active protection.</p>
-      </div>
+      <div class="section-header"><h2>Protect what you build</h2><p>As brands grow across channels, assets and reputation need active protection.</p></div>
       <div class="grid grid-3">
         <div class="card"><div class="card-icon">◈</div><h3>Asset monitoring</h3><p>Track logos, creatives and key assets across web and social.</p></div>
         <div class="card"><div class="card-icon">◎</div><h3>Brand governance</h3><p>Policies and access controls so teams stay on-brand.</p></div>
@@ -63,16 +61,30 @@
   </section>
   <footer class="footer">
     <div class="container">
-      <div class="footer-bottom" style="border: none; padding-top: 0;">
-        <span>© 2026 DESIGNOO</span>
-        <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+      <div class="footer-grid footer-grid-5">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a>
+          <p>Design, marketing and digital products.</p>
+          <div class="footer-contact-info">
+            <p><strong>Email</strong><br><a href="mailto:hello@designoo.pk">hello@designoo.pk</a></p>
+            <p><strong>WhatsApp</strong><br><a href="https://wa.me/923129836997">+92 312 9836997</a></p>
+            <p><strong>HQ</strong><br>Berlin · Remote-first</p>
+          </div>
+        </div>
+        <div><h4>Product</h4><div class="footer-links"><a href="product.html">Products</a><a href="dova-agent.html">DOVA Agent</a><a href="dove-shield.html">Dove Shield</a></div></div>
+        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
+        <div class="footer-form-wrap">
+          <h4>Contact us</h4>
+          <form class="footer-form" action="#" onsubmit="event.preventDefault(); alert('Thank you.');">
+            <input class="form-input" type="email" name="email" required placeholder="Your email">
+            <textarea class="form-textarea footer-textarea" name="message" required placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-accent btn-sm w-full">Send</button>
+          </form>
+        </div>
       </div>
+      <div class="footer-bottom"><span>© 2026 DESIGNOO</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div>
     </div>
   </footer>
-  <script>
-    const toggle = document.getElementById('menuToggle');
-    const nav = document.getElementById('mainNav');
-    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
-  </script>
+  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));</script>
 </body>
 </html>
