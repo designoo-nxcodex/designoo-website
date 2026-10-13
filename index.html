@@ -7,6 +7,7 @@
   <meta name="description" content="Graphic design, UI/UX, websites, marketing and social media — we architect digital experiences that grow brands.">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles-extra.css">
+  <link rel="stylesheet" href="dark-theme.css">
 </head>
 <body>
   <header class="header">
@@ -86,7 +87,7 @@
     </div>
   </section>
 
-  <section class="section" id="services" style="background: var(--soft-bg);">
+  <section class="section" id="services" style="background: #0A1A2F;">
     <div class="container">
       <div class="section-header">
         <h2>What We Build</h2>
@@ -113,7 +114,7 @@
           <p class="mb-24">DESIGNOO is a design and digital studio. Strategy, design and marketing under one roof.</p>
           <a href="about.html" class="btn btn-primary">Our Story</a>
         </div>
-        <div class="card" style="background:var(--soft-bg);border:none">
+        <div class="card" style="background:#0A1A2F;border:none">
           <div class="stats-grid" style="grid-template-columns:1fr 1fr">
             <div class="stat-item"><h3>2019</h3><p>Founded</p></div>
             <div class="stat-item"><h3>65</h3><p>People</p></div>
@@ -125,7 +126,7 @@
     </div>
   </section>
 
-  <section class="section" id="product" style="background: var(--soft-bg);">
+  <section class="section" id="product" style="background: #0A1A2F;">
     <div class="container">
       <div class="section-header">
         <h2>Our Products</h2>
@@ -173,7 +174,7 @@
     </div>
   </section>
 
-  <section class="section" id="blog" style="background: var(--soft-bg);">
+  <section class="section" id="blog" style="background: #0A1A2F;">
     <div class="container">
       <div class="section-header">
         <h2>From the Blog</h2>
@@ -219,7 +220,7 @@
         <p>Tell us about the future you want to build. We'll help you ship it.</p>
         <div class="cta-actions">
           <a href="get-started.html" class="btn btn-accent btn-lg">Get Started</a>
-          <a href="contact.html" class="btn btn-secondary btn-lg" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">Talk to Us</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Talk to Us</a>
         </div>
       </div>
     </div>
@@ -273,10 +274,6 @@
       </div>
     </div>
   </footer>
-  <script>
-    const toggle = document.getElementById('menuToggle');
-    const nav = document.getElementById('mainNav');
-    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
