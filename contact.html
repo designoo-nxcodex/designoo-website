@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — DESIGNOO</title>
-  <meta name="description" content="Get in touch with DESIGNOO.">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles-extra.css">
+  <link rel="stylesheet" href="dark-theme.css">
 </head>
 <body>
   <header class="header">
@@ -27,7 +27,6 @@
       </div>
     </div>
   </header>
-
   <section class="page-hero">
     <div class="container">
       <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact</span></div>
@@ -35,7 +34,6 @@
       <p class="lead">Tell us about the future you want to build. We'll respond within one business day.</p>
     </div>
   </section>
-
   <section class="section">
     <div class="container">
       <div class="contact-grid">
@@ -63,17 +61,10 @@
               <p style="margin-top: 4px; color: var(--text-grey);">Berlin · Remote-first worldwide</p>
             </div>
           </div>
-          <div class="contact-info-item">
-            <div class="icon">◈</div>
-            <div>
-              <h4>New business</h4>
-              <p style="margin-top: 4px;"><a href="mailto:contact@designoo.pk" class="content-link">contact@designoo.pk</a></p>
-            </div>
-          </div>
         </div>
         <div class="card">
           <h3 class="mb-24">Send a message</h3>
-          <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you. We will be in touch shortly.');">
+          <form action="#" onsubmit="event.preventDefault(); alert('Thank you. We will be in touch shortly.');">
             <div class="form-group">
               <label class="form-label" for="name">Name</label>
               <input class="form-input" type="text" id="name" name="name" required placeholder="Your name">
@@ -81,10 +72,6 @@
             <div class="form-group">
               <label class="form-label" for="email">Email</label>
               <input class="form-input" type="email" id="email" name="email" required placeholder="you@company.com">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="company">Company</label>
-              <input class="form-input" type="text" id="company" name="company" placeholder="Company name">
             </div>
             <div class="form-group">
               <label class="form-label" for="message">Message</label>
@@ -96,58 +83,14 @@
       </div>
     </div>
   </section>
-
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid footer-grid-5">
-        <div class="footer-brand">
-          <a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a>
-          <p>Design, marketing and digital products.</p>
-          <div class="footer-contact-info">
-            <p><strong>Email</strong><br><a href="mailto:hello@designoo.pk">hello@designoo.pk</a></p>
-            <p><strong>WhatsApp</strong><br><a href="https://wa.me/923129836997">+92 312 9836997</a></p>
-            <p><strong>HQ</strong><br>Berlin · Remote-first</p>
-          </div>
-        </div>
-        <div>
-          <h4>Product</h4>
-          <div class="footer-links">
-            <a href="services.html">Services</a>
-            <a href="projects.html">Portfolio</a>
-            <a href="product.html">Products</a>
-            <a href="dova-agent.html">DOVA Agent</a>
-            <a href="dove-shield.html">Dove Shield</a>
-          </div>
-        </div>
-        <div>
-          <h4>Company</h4>
-          <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
-          </div>
-        </div>
-        <div class="footer-form-wrap">
-          <h4>Contact us</h4>
-          <form class="footer-form" action="#" onsubmit="event.preventDefault(); alert('Thank you.');">
-            <input class="form-input" type="email" name="email" required placeholder="Your email">
-            <textarea class="form-textarea footer-textarea" name="message" required placeholder="Message"></textarea>
-            <button type="submit" class="btn btn-accent btn-sm w-full">Send</button>
-          </form>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© 2026 DESIGNOO. All rights reserved.</span>
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© 2026 DESIGNOO</span>
         <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
       </div>
     </div>
   </footer>
-  <script>
-    const toggle = document.getElementById('menuToggle');
-    const nav = document.getElementById('mainNav');
-    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>

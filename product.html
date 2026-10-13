@@ -6,6 +6,7 @@
   <title>Products — DESIGNOO</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles-extra.css">
+  <link rel="stylesheet" href="dark-theme.css">
 </head>
 <body>
   <header class="header">
@@ -58,37 +59,19 @@
         <p>We run focused pilots with real workflows.</p>
         <div class="cta-actions">
           <a href="get-started.html" class="btn btn-accent btn-lg">Request a Pilot</a>
-          <a href="contact.html" class="btn btn-secondary btn-lg" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">Talk to Us</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Talk to Us</a>
         </div>
       </div>
     </div>
   </section>
   <footer class="footer">
     <div class="container">
-      <div class="footer-grid footer-grid-5">
-        <div class="footer-brand">
-          <a href="index.html" class="logo" style="color:#fff"><span class="logo-icon"></span> DESIGNOO</a>
-          <p>Design, marketing and digital products.</p>
-          <div class="footer-contact-info">
-            <p><strong>Email</strong><br><a href="mailto:hello@designoo.pk">hello@designoo.pk</a></p>
-            <p><strong>WhatsApp</strong><br><a href="https://wa.me/923129836997">+92 312 9836997</a></p>
-            <p><strong>HQ</strong><br>Berlin · Remote-first</p>
-          </div>
-        </div>
-        <div><h4>Product</h4><div class="footer-links"><a href="product.html">Products</a><a href="dova-agent.html">DOVA Agent</a><a href="dove-shield.html">Dove Shield</a><a href="services.html">Services</a></div></div>
-        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
-        <div class="footer-form-wrap">
-          <h4>Contact us</h4>
-          <form class="footer-form" action="#" onsubmit="event.preventDefault();alert('Thank you.');">
-            <input class="form-input" type="email" name="email" required placeholder="Your email">
-            <textarea class="form-textarea footer-textarea" name="message" required placeholder="Message"></textarea>
-            <button type="submit" class="btn btn-accent btn-sm w-full">Send</button>
-          </form>
-        </div>
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© 2026 DESIGNOO</span>
+        <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
       </div>
-      <div class="footer-bottom"><span>© 2026 DESIGNOO</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div>
     </div>
   </footer>
-  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));</script>
+  <script src="app.js"></script>
 </body>
 </html>
