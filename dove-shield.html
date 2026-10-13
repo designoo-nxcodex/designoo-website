@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dove Shield — DESIGNOO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon"></span> DESIGNOO</a>
+      <nav class="nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Portfolio</a>
+        <a href="product.html" class="nav-link active">Product</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="get-started.html" class="btn btn-primary btn-sm">Build With Us</a>
+        <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><a href="product.html">Product</a><span>/</span><span>Dove Shield</span></div>
+      <h1>Dove Shield</h1>
+      <p class="lead">Brand and creative asset protection — monitoring, governance and controls for your digital presence and IP.</p>
+      <div class="mt-32">
+        <a href="get-started.html" class="btn btn-primary btn-lg">Request Demo</a>
+        <a href="product.html" class="btn btn-secondary btn-lg">All Products</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Protect what you build</h2>
+        <p>As brands grow across channels, assets and reputation need active protection.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card"><div class="card-icon">◈</div><h3>Asset monitoring</h3><p>Track logos, creatives and key assets across web and social.</p></div>
+        <div class="card"><div class="card-icon">◎</div><h3>Brand governance</h3><p>Policies and access controls so teams stay on-brand.</p></div>
+        <div class="card"><div class="card-icon">⬡</div><h3>Presence controls</h3><p>Visibility into channels that represent your brand.</p></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="cta-section">
+        <h2>Protect your brand with Dove Shield</h2>
+        <p>Request a pilot or talk to the team.</p>
+        <div class="cta-actions">
+          <a href="get-started.html" class="btn btn-accent btn-lg">Request a Pilot</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg" style="background: transparent; color: #fff; border-color: rgba(255,255,255,0.3);">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border: none; padding-top: 0;">
+        <span>© 2026 DESIGNOO</span>
+        <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
