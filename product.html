@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Products — DESIGNOO</title>
-  <meta name="description" content="DOVA Agent and Dove Shield — DESIGNOO product platforms.">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-extra.css">
 </head>
 <body>
   <header class="header">
@@ -21,7 +21,6 @@
         <a href="contact.html" class="nav-link">Contact</a>
       </nav>
       <div class="nav-actions">
-        <a href="get-started.html" class="btn btn-secondary btn-sm">Request a Demo</a>
         <a href="get-started.html" class="btn btn-primary btn-sm">Build With Us</a>
         <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
       </div>
@@ -31,7 +30,7 @@
     <div class="container">
       <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Product</span></div>
       <h1>Products</h1>
-      <p class="lead">Platforms we build and operate — for teams that need more than a one-off engagement.</p>
+      <p class="lead">Platforms we build and operate — DOVA Agent and Dove Shield.</p>
     </div>
   </section>
   <section class="section">
@@ -40,13 +39,13 @@
         <a href="dova-agent.html" class="product-card">
           <div class="product-card-badge">Platform</div>
           <h3>DOVA Agent</h3>
-          <p>Cognitive agent framework for autonomous workflows, research and decision support. Multi-agent orchestration, tools, memory and governance — built for production.</p>
+          <p>Cognitive agent framework for autonomous workflows and decision support.</p>
           <span class="product-card-link">Explore DOVA Agent →</span>
         </a>
         <a href="dove-shield.html" class="product-card">
           <div class="product-card-badge">Security</div>
           <h3>Dove Shield</h3>
-          <p>Brand and creative asset protection. Monitoring, governance and controls so your digital presence and IP stay protected as you scale.</p>
+          <p>Brand and creative asset protection — monitoring, governance and controls.</p>
           <span class="product-card-link">Explore Dove Shield →</span>
         </a>
       </div>
@@ -56,10 +55,10 @@
     <div class="container">
       <div class="cta-section">
         <h2>See a product in your environment</h2>
-        <p>We run focused pilots with real workflows. No generic demos.</p>
+        <p>We run focused pilots with real workflows.</p>
         <div class="cta-actions">
           <a href="get-started.html" class="btn btn-accent btn-lg">Request a Pilot</a>
-          <a href="contact.html" class="btn btn-secondary btn-lg" style="background: transparent; color: #fff; border-color: rgba(255,255,255,0.3);">Talk to Us</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">Talk to Us</a>
         </div>
       </div>
     </div>
@@ -68,52 +67,27 @@
     <div class="container">
       <div class="footer-grid footer-grid-5">
         <div class="footer-brand">
-          <a href="index.html" class="logo" style="color: #fff;"><span class="logo-icon"></span> DESIGNOO</a>
+          <a href="index.html" class="logo" style="color:#fff"><span class="logo-icon"></span> DESIGNOO</a>
           <p>Design, marketing and digital products.</p>
           <div class="footer-contact-info">
             <p><strong>Email</strong><br><a href="mailto:hello@designoo.io">hello@designoo.io</a></p>
             <p><strong>HQ</strong><br>Berlin · Remote-first</p>
           </div>
         </div>
-        <div>
-          <h4>Product</h4>
-          <div class="footer-links">
-            <a href="services.html">Services</a>
-            <a href="projects.html">Portfolio</a>
-            <a href="product.html">Products</a>
-            <a href="dova-agent.html">DOVA Agent</a>
-            <a href="dove-shield.html">Dove Shield</a>
-          </div>
-        </div>
-        <div>
-          <h4>Company</h4>
-          <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
-          </div>
-        </div>
+        <div><h4>Product</h4><div class="footer-links"><a href="product.html">Products</a><a href="dova-agent.html">DOVA Agent</a><a href="dove-shield.html">Dove Shield</a><a href="services.html">Services</a></div></div>
+        <div><h4>Company</h4><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div>
         <div class="footer-form-wrap">
           <h4>Contact us</h4>
-          <form class="footer-form" action="#" onsubmit="event.preventDefault(); alert('Thank you. We will reply shortly.');">
+          <form class="footer-form" action="#" onsubmit="event.preventDefault();alert('Thank you.');">
             <input class="form-input" type="email" name="email" required placeholder="Your email">
             <textarea class="form-textarea footer-textarea" name="message" required placeholder="Message"></textarea>
             <button type="submit" class="btn btn-accent btn-sm w-full">Send</button>
           </form>
         </div>
       </div>
-      <div class="footer-bottom">
-        <span>© 2026 DESIGNOO. All rights reserved.</span>
-        <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
-      </div>
+      <div class="footer-bottom"><span>© 2026 DESIGNOO</span><span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span></div>
     </div>
   </footer>
-  <script>
-    const toggle = document.getElementById('menuToggle');
-    const nav = document.getElementById('mainNav');
-    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
-  </script>
+  <script>const toggle=document.getElementById('menuToggle');const nav=document.getElementById('mainNav');if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));</script>
 </body>
 </html>
